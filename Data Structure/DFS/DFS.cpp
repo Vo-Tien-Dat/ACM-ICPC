@@ -9,15 +9,15 @@ const int maxn = 1e3;
 vector<int> graph[maxn];
 bool isChecked[maxn];
 
-void DFS(int first)
+void DFS(int nodeFirst)
 {
-    isChecked[first] = true;
-    for (int i = 0; i < graph[first].size(); ++i)
+    isChecked[nodeFirst] = true;
+    for (int i = 0; i < graph[nodeFirst].size(); ++i)
     {
-        int second = graph[first][i];
-        if (isChecked[second] == false)
+        int nodeSecond = graph[nodeFirst][i];
+        if (isChecked[nodeSecond] == false)
         {
-            DFS(second);
+            DFS(nodeSecond);
         }
     }
 }
@@ -27,14 +27,14 @@ int main()
 
     freopen("DFS.in", "r", stdin);
     freopen("DFS.out", "w", stdout);
-    int nodes, paths;
+    int numberNodes, numberPaths;
 
-    cin >> nodes >> paths;
-    for (int i = 1; i <= nodes; ++i)
+    cin >> numberNodes >> numberPaths;
+    for (int i = 1; i <= numberNodes; ++i)
     {
         isChecked[i] = false;
     }
-    for (int i = 1; i <= paths; ++i)
+    for (int i = 1; i <= numberPaths; ++i)
     {
         int first, second;
         cin >> first >> second;
@@ -43,7 +43,7 @@ int main()
 
     DFS(1);
 
-    for (int i = 1; i <= nodes; ++i)
+    for (int i = 1; i <= numberNodes; ++i)
     {
         cout << isChecked[i] << endl;
     }
