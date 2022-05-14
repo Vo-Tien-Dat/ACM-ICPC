@@ -1,6 +1,5 @@
 # ACM-ICPC
-
-ACM-ICPC is competitive programming competition among the universities of the world
+<h1 align = "center">ACM-ICPC is competitive programming competition among the universities of the world</h1>
 
 I like ACM-ICPC
 
