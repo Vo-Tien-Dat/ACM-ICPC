@@ -8,7 +8,7 @@
 
 <p align = "left" >
      <h4>+ Algorithm</h4>
-     <p align = "left">
+     <p align = "center">
           <h5>Dynamic Programming</h5>
           <h5>Searching and Sorting</h5>
      </p>
@@ -16,7 +16,7 @@
 
 <p align = "left" >
      <h4>+ Data Structure</h4>
-     <p align = "left">
+     <p align = "center">
           <h5>DFS</h5>
           <h5>BFS</h5>
           <h5>IT (Interval Tree)</h5>
