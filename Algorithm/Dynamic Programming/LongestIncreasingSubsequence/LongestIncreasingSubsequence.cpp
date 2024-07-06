@@ -50,6 +50,7 @@ int main()
 
     cout << "test git";
     cout << "hello world" << endl;
+    cout << "hello mom" << endl;
 
     cout << endl;
     cout << ans;
