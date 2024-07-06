@@ -49,6 +49,7 @@ int main()
     }
 
     cout << "test git";
+    couT << "TEST";
 
     cout << endl;
     cout << ans;
