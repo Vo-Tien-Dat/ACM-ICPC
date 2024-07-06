@@ -51,6 +51,7 @@ int main()
     cout << "test git";
     cout << "hello world" << endl;
     cout << "hello mom" << endl;
+    cout << "test";
 
     cout << endl;
     cout << ans;
