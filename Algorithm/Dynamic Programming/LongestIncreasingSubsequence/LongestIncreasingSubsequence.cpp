@@ -54,6 +54,7 @@ int main()
     cout << "viet hoang" << endl;
     cout << "test";
     cout << "calling";
+    cout << "hello";
 
     cout << endl;
     cout << ans;
