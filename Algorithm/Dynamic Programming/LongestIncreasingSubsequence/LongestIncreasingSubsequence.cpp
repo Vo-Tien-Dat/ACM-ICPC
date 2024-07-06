@@ -49,6 +49,7 @@ int main()
     }
 
     cout << "test git";
+    count << "hello wviet";
 
     cout << endl;
     cout << ans;
