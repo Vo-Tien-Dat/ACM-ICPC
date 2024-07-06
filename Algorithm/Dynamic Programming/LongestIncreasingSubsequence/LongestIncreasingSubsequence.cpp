@@ -47,6 +47,9 @@ int main()
         ans = max(LIS[i], ans);
         cout << LIS[i] << " ";
     }
+
+    cout << "test git";
+
     cout << endl;
     cout << ans;
 }
